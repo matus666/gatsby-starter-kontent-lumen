@@ -66,7 +66,7 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
       }
-      allKontentItemArticle(filter: {preferred_language: {eq: "en-US"}}) {
+      allKontentItemArticle(filter: {preferred_language: {eq: "cs-CZ"}}) {
         nodes {
           elements {
             slug {
